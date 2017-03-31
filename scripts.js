@@ -119,11 +119,11 @@ function setGamePoints() {
 }
  
 function endGame() {
-    if (player.score == 5) {
+    if (player.score == 10) {
        gameState = 'ended';
        alert(player.name + ':WYGRAŁEŚ'); 
     }
-    if(computer.score == 5) {
+    if(computer.score == 10) {
         gameState = 'ended';
         alert('KOMPUTER WYGRYWA');
     }
